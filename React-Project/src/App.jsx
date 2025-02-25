@@ -1,6 +1,7 @@
 import { useState } from 'react'
+import New from './new';
 function App() {
-  return (<h1>Hello World | Kratik Paliwal.....</h1>);
+  return (<New/>);
 }
 
 export default App

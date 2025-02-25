@@ -1,0 +1,18 @@
+Steps to install vite 
+    1. create vite@latest
+    2.Projectname
+    3.React
+    4.Javascript
+The above steps will not give the node module to install will write npm i 
+
+To run the project will write npm run dev 
+
+
+Vite is French Word which means Fast. 
+Vite is tool for developing react React applications
+
+
+If we writing any method in new file the method should start with Capital word.
+
+export defalut method_name
+import method_name from file_path
