@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { use } from 'react'
 
@@ -10,7 +8,9 @@ let [counter,fcounter]=useState(0);
 
 
 const addValue = ()=>{
-  console.log(Math.random());
+  if(counter==20){
+    [counter,fcounter] = useState(20);
+  }
   fcounter(counter+1);
 
 }

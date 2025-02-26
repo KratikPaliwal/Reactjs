@@ -27,4 +27,25 @@ Hooks in Reacts :
 1. useState :
     let [varible_name, function_name]=useState(0);
     jaha jaha webpage pe wo varible hota hai wo ek sath change ho jata hai.
-    
+
+
+To update Virtual DOM react uses fibre algorithm
+
+Fibre algorithm  uses incremental rendering : means the ability to split render into chunks matlab jaha change karna hai woh hi tree ki branch pe ja kar change karta hai aur koi koi iteration ko skip bhi kar deta hai aur fat change ho toh 
+ 
+
+ Some important features are : 
+It can pause, abort and reuse work as the new update come and 
+has ability to assign the priority to different updates.
+
+Jab tak javascript inject hota tha wo process ko Hydration bolte.
+Fibre algorithm ke through Hydration process aache se hoti hai 
+
+
+Reconciliation is the algorithm behind the Virtual DOM
+
+What we can do in fibre algorithm are : 
+pause work and come back to it later
+assign priority to different types of work
+reuse previous completed work
+abort work if it's no longer needed
