@@ -16,3 +16,15 @@ If we writing any method in new file the method should start with Capital word.
 
 export defalut method_name
 import method_name from file_path
+
+
+React always use bundler to improve syntax and to upgrade syntax
+
+
+
+
+Hooks in Reacts :
+1. useState :
+    let [varible_name, function_name]=useState(0);
+    jaha jaha webpage pe wo varible hota hai wo ek sath change ho jata hai.
+    

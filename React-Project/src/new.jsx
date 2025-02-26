@@ -1,6 +1,7 @@
 function New(){
+    const username = 'Kratik'
     return(
-        <h1>Hello Something is going on...</h1>
+        <h1>Hello Something is going on...{username}</h1>
     )
 }
 
