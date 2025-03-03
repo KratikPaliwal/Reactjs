@@ -49,3 +49,17 @@ pause work and come back to it later
 assign priority to different types of work
 reuse previous completed work
 abort work if it's no longer needed
+
+
+
+UseState if we increase the counter by like this setCounter(counter+1)
+setCounter(counter+1)
+setCounter(counter+1)
+setCounter(counter+1)
+
+So it will not increase the counter value to 4 directly beacause react take as a bundle and it is performing same thing so it will do it increase value only one time
+
+to increase the value directly by 4 we have to use a callback function which will give previous value of the counter 
+
+
+setCounter(prevcounter => prevcounter+1)
