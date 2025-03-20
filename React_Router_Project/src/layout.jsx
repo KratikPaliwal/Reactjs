@@ -1,17 +1,15 @@
 import React from 'react'
-import Footer from './components/Footer/Footer'
-import Header from './components/header/header'
+import Header from './Components/Header/Header'
+import Footer from './Components/Footer/Footer'
 import { Outlet } from 'react-router-dom'
+
 function Layout() {
     return (
         <>
         <Header />
         <Outlet />
         <Footer />
-
         </>
-        
-
     )
 }
 

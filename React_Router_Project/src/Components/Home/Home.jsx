@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link,NavLink } from "react-router-dom";
 
-function Home() {
+export default function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
             <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
@@ -32,7 +32,7 @@ function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+                    <img className="w-96" src="/Users/kratikpaliwal/Documents/React/React_Router_Project/src/Images/logo.png" alt="image1" />
                 </div>
             </aside>
 
@@ -42,7 +42,5 @@ function Home() {
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
         </div>
-    )
+    );
 }
-
-export default Home
